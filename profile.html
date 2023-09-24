@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SWIGGI</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="col_o">
+  <section>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light  bg-white  shadow  w-100 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="https://cdn.worldvectorlogo.com/logos/swiggy-1.svg" alt=""
+              style="width: 34px;height: 49px;"></a>
+          <a class="navbar-brand" href="#">
+            <span class="fs-6 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample ">Pune 44331,</span>
+            <span class="fs-6">
+              Shiddhivinay Classic,moshi
+            </span>
+            <span> <i class="bi bi-chevron-down btn  border border-0" style="color: orangered;" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"></i></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-5 ">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold " aria-current="page" href="#"> <i class="bi bi-search "></i><span
+                    class="ps-2">Search</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold " aria-current="page" href="#"> <i class="bi bi-percent "></i><span
+                    class="ps-2">Offers <sup class="sup_coloure">New</sup></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold " aria-current="page" href="#"> <i
+                    class="bi bi-info-circle "></i><span class="ps-2">Help</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person "></i> Sam
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" target="_blank" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-item">Order</a></li>
+                  <li><a class="dropdown-item">Swiggy One</a></li>
+                  <li><a class="dropdown-item">Favourites</a></li>
+                  <li><a class="dropdown-item">Log Out</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold " aria-current="page" href="#"> <i
+                    class="bi bi-bag hov fw-bold"></i><span class="ps-2">Card</span>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+  <div class="container-fluid  mt-5 px-2">
+    <div class="row text-white">
+      <div class="col-10 ">
+        <div class="div ps-4">
+          <h3>Sam</h3>
+          <div class="d-flex">
+            <p>9988998989</p> .
+            <p class="ps-3">deshmukhanjali167@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="ps-4">
+          <button class="btn btn-sm border-white  p-2"> EDIT PROFILE
+        </div>
+        </button>
+      </div>
+    </div>
+    <div class="row bg-white mx-3">
+      <div class="col-3 ps-5 pt-5 pb-5">
+        <div class="wrapper ps-4 ">
+          <div class="d-flex py-4 hover ">
+            <img
+              src="https://previews.123rf.com/images/victor85/victor851711/victor85171100503/90820838-shopping-bag-circle-icon-black-round-minimalist-icon-isolated-on-white-background-paper-bag.jpg"
+              style="width:27px;height: 27px;
+                    ">
+            <button onclick="Orderrr()" class="text-dark ps-3 fs-5 btn btn-sm boder border-0">Order </button>
+          </div>
+          <div class="d-flex  py-4 hover">
+            <img src="https://static-00.iconduck.com/assets.00/swiggy-icon-348x512-qsubahgy.png" style="width:27px;height: 27px;
+                       ">
+            <button onclick="Swiggyes()" class="text-dark ps-3 fs-5 btn btn-sm  boder border-0">Swiggy One </button>
+          </div>
+          <div class="d-flex  py-4 hover">
+            <img src="https://cdn-icons-png.flaticon.com/512/83/83677.png" style="width:27px;height: 27px;
+                       ">
+            <span>
+              <a href="fav.html" style="text-decoration:none" class="text-dark ps-3 fs-5">Favourites </a>
+            </span>
+          </div>
+          <div class="d-flex py-4 pro hover">
+            <img
+              src="data:image/png;base64,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"
+              style="width:27px;height: 27px;
+                       ">
+            <p class="text-dark ps-3 fs-5">Payments </p>
+          </div>
+          <div class="d-flex   py-4 hover">
+            <img
+              src="data:image/png;base64,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"
+              style="width:27px;height: 27px;
+                       ">
+            <p class="text-dark ps-3 fs-5">Addresses</p>
+          </div>
+          <div class="d-flex py-2 hover ">
+            <img
+              src="data:image/png;base64,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"
+              style="width:27px;height: 27px;
+                       ">
+            <p class="text-dark ps-3 fs-5">Setting </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-9 pt-5 " id="hideorder">
+        <div class="d-flex   pt-5 justify-content-center">
+          <img class="_38fqp" imageid="empty-orders-image_acrbbw" height="262" imageurl="" alt="img renderer"
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_262/empty-orders-image_acrbbw">
+        </div>
+        <div class="d-flex    justify-content-center pt-3 fw-bold">
+          <p> No Orders</p>
+        </div>
+        <div class="d-flex    justify-content-center">
+          <p>You haven't placed any order yet.</p>
+        </div>
+      </div>
+      <div class="col-9 pt-5 " id="hideswiggy">
+        <div class="row">
+          <div class="col-6 pt-4">
+            <div class="row pt-3">
+              <p class="fw-bold fs-3"><b>Swiggy One</b>
+              <p> Get free delivery and extra discounts all across Swiggy.</p>
+              <p> Your Swiggy One benefits can be availed only on the Swiggy App.</p>
+              </p>
+              <div class="col-6">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png"
+                  style="width: 186px;height: 64px;">
+              </div>
+              <div class="col-6">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png"
+                  style="width: 186px;height: 64px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-6 pt-4">
+            <img alt=""
+              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_720,h_660/swiggy_one/my_account_super"
+              style="width: 330px;height:360px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function Orderrr() {
+      var x = document.getElementById("hideorder");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function Swiggyes() {
+      var x = document.getElementById("hideswiggy");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    function SwiAddressesggy() {
+      var x = document.getElementById("hideswiggy");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
