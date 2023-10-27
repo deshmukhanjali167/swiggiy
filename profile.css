@@ -2,9 +2,17 @@ body {
     background: #37718e;
 }
 
+
 .col_o {
     background: #37718e;
 }
+
+.hovernav:hover {
+    color: orangered;
+
+}
+
+
 
 .wrapper {
     background-color: #f0f1ff;
