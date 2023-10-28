@@ -1,15 +1,16 @@
-/* body
+body
 {
    background-color: rgb(168, 142, 142);
-} */
 
-header {
+}
+
+/* header {
   position: fixed;
   z-index: 2;
   width: 100%;
 
 
-}
+} */
 
 .subheding {
   text-align: end !important;
